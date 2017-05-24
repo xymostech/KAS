@@ -1529,6 +1529,8 @@ KAS.unitParser = parser;
 
 (function(KAS) {
 
+var _ = require("underscore");
+
 /*  The node hierarcy is as follows:
 
     (Expr)
@@ -5051,6 +5053,8 @@ KAS.One = Num.One;
 /* eslint-disable no-var, no-undef, comma-dangle, indent, max-len */
 
 (function(KAS) {
+
+var _ = require("underscore");
 
 // assumes that both expressions have already been parsed
 // TODO(alex): be able to pass a random() function to compare()

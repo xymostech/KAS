@@ -3,6 +3,8 @@
 
 (function(KAS) {
 
+var _ = require("underscore");
+
 // assumes that both expressions have already been parsed
 // TODO(alex): be able to pass a random() function to compare()
 KAS.compare = function(expr1, expr2, options) {

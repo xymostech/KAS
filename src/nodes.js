@@ -3,6 +3,8 @@
 
 (function(KAS) {
 
+var _ = require("underscore");
+
 /*  The node hierarcy is as follows:
 
     (Expr)
